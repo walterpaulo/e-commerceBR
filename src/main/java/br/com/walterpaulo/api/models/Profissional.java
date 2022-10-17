@@ -1,6 +1,6 @@
 package br.com.walterpaulo.api.models;
 
-public class profissional {
+public class Profissional {
 
   private int id;
   private String nome;
@@ -10,7 +10,7 @@ public class profissional {
    * @param id
    * @param nome
    */
-  public profissional(int id, String nome) {
+  public Profissional(int id, String nome) {
     this.id = id;
     this.nome = nome;
   }
